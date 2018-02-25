@@ -1,2 +1,0 @@
-# PeerXP
-PeerXP Website
