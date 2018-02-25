@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="icon" href="https://www.peerxp.com/images/peerxp-logo.png">
+        <meta name="fragment" content="!">
+        <meta name="description" content="Think in New Dimensions">
+        <meta name="keywords" content="Education, Software, Technology, school, data management, Education Cloud, Cloud Technology, custom software, Learning management system, school information system, collaboration tool">
+        <title>PeerXP</title>
+
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="master.css" media="screen" title="no title" charset="utf-8">
+    <style type="text/css">.backpack.dropzone {
+  font-family: 'SF UI Display', 'Segoe UI';
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 150px;
+  font-weight: lighter;
+  color: white;
+  will-change: right;
+  z-index: 2147483647;
+  bottom: 20%;
+  background: #333;
+  position: fixed;
+  user-select: none;
+  transition: left .5s, right .5s;
+  right: 0px; }
+  .backpack.dropzone .animation {
+    height: 80px;
+    width: 250px;
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
+  .backpack.dropzone .title::before {
+    content: 'Save to'; }
+  .backpack.dropzone.closed {
+    right: -250px; }
+  .backpack.dropzone.hover .animation {
+    animation: sxt-play-anim-hover 0.91s steps(21);
+    animation-fill-mode: forwards;
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
+
+@keyframes sxt-play-anim-hover {
+  from {
+    background-position: 0px; }
+  to {
+    background-position: -5250px; } }
+  .backpack.dropzone.saving .title::before {
+    content: 'Saving to'; }
+  .backpack.dropzone.saving .animation {
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saving_loop.png") left center;
+    animation: sxt-play-anim-saving steps(59) 2.46s infinite; }
+
+@keyframes sxt-play-anim-saving {
+  100% {
+    background-position: -14750px; } }
+  .backpack.dropzone.saved .title::before {
+    content: 'Saved to'; }
+  .backpack.dropzone.saved .animation {
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saved.png") left center;
+    animation: sxt-play-anim-saved steps(20) 0.83s forwards; }
+
+@keyframes sxt-play-anim-saved {
+  100% {
+    background-position: -5000px; } }
+</style></head>
+    <body class="home" cz-shortcut-listen="true">
+        <div class="headerWrapper">
+            <header>
+            	<nav>
+        			<a href="PeerXP-website/index.html" class="nav-home active">
+        				Home
+        			</a>
+                    <a href="https://www.pet96.com/partner/" class="nav-features">
+        				Partner
+        			</a>
+                    <a href="https://www.pet96.com/contact/" class="nav-pricing">
+        				Contact
+        			</a>
+            	</nav>
+            	<div class="logo">
+            		<a href="PeerXP-website/index.html" class="logo--link">
+            			<img src="images/peerxp-logo.png">
+            		</a>
+            	</div>
+            	<div class="right">
+     
+            	</div>
+
+            	<div class="mobile">
+            		<div class="link active">
+          
+            		</div>
+
+            		<div class="logo">
+            			<a href="PeerXP-website/index.html" class="logo--link">
+            				<img src="images/peerxp-logo.png">
+            			</a>
+            		</div>
+
+            		<div class="burger">
+            			<div class="bars">
+            				<span></span>
+            				<span></span>
+            				<span></span>
+            			</div>
+            		</div>
+            	</div>
+
+            	<ul class="mobile-dropdown">
+        			<li>
+						<a href="PeerXP-website/index.html" >
+							Home
+						</a>
+                    </li>
+                    <li>
+                        <a href="https://www.pet96.com/partner/">
+            				Partner
+            			</a>
+                    </li>
+                    <li>
+                        <a href="https://www.pet96.com/contact/">
+            				Contact
+            			</a>
+        			</li>
+
+            	</ul>
+            </header>
+        </div>
+
+        <div class="page home">
+        	<div class="pageWrapper">
+        		<div class="centeredContainer">
+        			<div class="catchZone">
+        				<div class="hello">
+        					<span id="intro">
+        						<span style="opacity: 1; transform: translate3d(0px, 0px, 0px); color: #f58a1e;">H</span>
+        						<span style="opacity: 1; transform: translate3d(0px, 0px, 0px); color: #923cce;">e</span>
+        						<span style="opacity: 1; transform: translate3d(0px, 0px, 0px); color: #237db0;">l</span>
+        						<span style="opacity: 1; transform: translate3d(0px, 0px, 0px); color: #237db0;">l</span>
+        						<span style="opacity: 1; transform: translate3d(0px, 0px, 0px); color: #54b051;">o</span>
+        						<span style="opacity: 1; transform: translate3d(0px, 0px, 0px); color: #54b051;">.</span>
+        					</span>
+        				</div>
+        			</div>
+
+        			<div class="catchPhrase">
+        				<p>
+    						<span style="opacity: 1; transform-origin: center center 0px; transform: matrix(1, 0, 0, 1, 0, 0);">Technology</span>
+                <span style="opacity: 1; transform-origin: center center 0px; transform: matrix(1, 0, 0, 1, 0, 0);">has never been so Simple.</span>
+        				</p>
+        			</div>
+        		</div>
+        	</div>
+
+        	<section class="blocks">
+        		<div class="pageWrapper blocksWrapper">
+    				<section class="block" style="opacity: 1; transform-origin: center center 0px; transform: matrix(1, 0, 0, 1, 0, 0);">
+    					<div><br><br>
+							<center>
+    						<a href="https://www.pet96.com"><img src="images/pet96-main-logo.png"></a>
+							</center>
+    					</div><br><br><br><br><br>
+    					<span class="block--catch">
+    						Inclusive Edu-Tech Cloud 
+    					</span><br>
+    					<div class="block--text">
+    						Making Education simpler, more pleasant, and more productive with PET96.
+    					</div>
+    				</section>
+                    <section class="block" style="opacity: 1; transform-origin: center center 0px; transform: matrix(1, 0, 0, 1, 0, 0);">
+    					<div><br><br>
+							<center>
+    						<a href="http://anvesh.peerxp.com/"><img src="images/anvesh.png"></a>
+							</center>
+    					</div><br><br><br><br><br>
+    					<span class="block--catch">
+    						Data Management and Collaboration
+    					</span>
+    					<div class="block--text">
+    						Automate Data Digitization and Management at all levels<br>in an organization.
+    					</div>
+    				</section>
+                    <section class="block" style="opacity: 1; transform-origin: center center 0px; transform: matrix(1, 0, 0, 1, 0, 0);">
+    					<div><br>
+							<center>
+    						<a href="https://www.pet96.com/contact/"><img src="images/panda-150.gif"></a>
+							</center>
+    					</div><br><br><br><br>
+    					<span class="block--catch">
+    						Your Technology Partner
+    					</span>
+    					<div class="block--text">
+    						Need Custom Software,<br> Contact Us.
+    					</div>
+    				</section>
+        		</div>
+        	</section>
+
+  
+        </div>
+
+        <div class="footerWrapper">
+            <footer>
+            	<section class="desktop">
+            		<div>
+            			<p><center>2018 © PeerXP Technologies - All rights reserved.</center></p>
+            		</div>
+           
+            	</section>
+
+            	<section class="mobile">
+            		<p>
+            			2018 © PeerXP Technologies - All Right reserved.
+            
+            		</p>
+            	</section>
+            </footer>
+        </div>
+
+
+        <!-- SCRIPTS -->
+
+        <script type="text/javascript" src="vendor.js"></script>
+        <script type="text/javascript" src="bundle.js"></script>
+    
+
+</body></html>
